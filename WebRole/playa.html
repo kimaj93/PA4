@@ -1,0 +1,20 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Oswald">
+    <link rel="stylesheet" type="text/css" href="playa.css">
+    <script src="jquery-1.11.2.js"></script>
+    <script src="jquery-ui.js"></script>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css">
+    <script src="playa.js"></script>
+</head>
+<body>
+    <div class="ui-widget">
+        <img src="nba_logo.png" alt="nba" />
+        <input type="text" id="userInput" onkeydown="getURLsAndErrors(); suggestWords(); showPlayerStats();"/>
+    </div>
+    <div id="stats"></div>
+    <div id="URLAndErrorMessage"></div>
+</body>
+</html>

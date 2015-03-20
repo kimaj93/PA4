@@ -1,0 +1,15 @@
+﻿body, input {
+    font-family: 'Oswald';
+}
+
+div.wrapping {
+    word-wrap: break-word;
+}
+
+input, img {
+    float: left;
+}
+
+input, #URLAndErrorMessage, #stats, br {
+    clear: left;
+}
